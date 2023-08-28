@@ -11,8 +11,7 @@ html {
 body {
   min-width: 1050px;
   max-width: 1440px;
-  margin: 0;
-  margin: auto;
+  margin: 0 auto;
   font-family: Raleway, Arial, sans-serif;
 }
 
