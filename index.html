@@ -25,16 +25,17 @@
       <a href="index.html"
         ><img src="./images/logo-black.svg" class="header__logo" alt="Логотип"
       /></a>
-      <div class="contact-info">
-        <a href="tel:+99995555555">+9 999 555 5555</a><br />
+      <address class="contact-info">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address class="address">
-          наб. Принсенграхт 263-265,<br />Амстердам
+        <address class="contact-info__address">
+          <p>наб. Принсенграхт 263-265, Амстердам</p>
         </address>
-      </div>
+      </address>
     </header>
     <main>
       <section class="cover uppercase">
+        <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="aligned-text"
             >Он<span class="letter-spacing-extended">о</span></span
@@ -48,10 +49,11 @@
         </h1>
         <div class="cover__description">
           <h2 class="cover__description-text">
-            Аукцион вещей, в которые никто не
-            <span class="word-spacing-extended">верил</span>
+            Аукцион вещей, в которые никто не верил
           </h2>
-          <button class="bet-button uppercase">Сделать ставку</button>
+          <button class="bet-button uppercase" type="button">
+            Сделать ставку
+          </button>
         </div>
       </section>
       <section class="lots" id="lots">
@@ -60,6 +62,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="https://practicum.yandex.ru/"
               ><article class="card card_type_film">
+                <div class="overlay"></div>
                 <h3 class="card__title uppercase">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -74,6 +77,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="https://practicum.yandex.ru/"
               ><article class="card card_type_book">
+                <div class="overlay"></div>
                 <h3 class="card__title uppercase">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -91,6 +95,7 @@
           <li class="lots__card-list-item">
             <a class="card-link" href="https://practicum.yandex.ru/"
               ><article class="card card_type_picture">
+                <div class="overlay"></div>
                 <h3 class="card__title uppercase">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -140,46 +145,52 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
-        <div class="contact-info">
-          <a href="tel:+99995555555">+9 999 555 5555</a><br />
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <address class="address">
-            наб. Принсенграхт 263-265,<br />Амстердам
-          </address>
-        </div>
-        <nav class="footer__menu">
-          <ul class="footer__links-list">
-            <li class="footer__links-list-item"><a href="#">главная</a></li>
-            <li class="footer__links-list-item">
-              <a href="#lots">посмотреть лоты</a>
-            </li>
-            <li class="footer__links-list-item">
-              <a href="#about">об аукционе</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="footer__social-list">
-          <li class="footer__social-list-item">
-            <a class="footer__social-link" href="https://practicum.yandex.ru/"
-              ><img class="footer__social-icon" src="./images/yt.svg" alt=""
-            /></a>
+    </main>
+    <footer class="footer">
+      <address class="contact-info">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <address class="contact-info__address">
+          <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </address>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item"><a href="#">главная</a></li>
+          <li class="footer__links-list-item">
+            <a href="#lots">посмотреть лоты</a>
           </li>
-          <li class="footer__social-list-item">
-            <a class="footer__social-link" href="https://practicum.yandex.ru/"
-              ><img class="footer__social-icon" src="./images/vk.svg" alt=""
-            /></a>
-          </li>
-          <li class="footer__social-list-item">
-            <a class="footer__social-link" href="https://practicum.yandex.ru/"
-              ><img
-                class="footer__social-icon"
-                src="./images/pinterest.svg"
-                alt=""
-            /></a>
+          <li class="footer__links-list-item">
+            <a href="#about">об аукционе</a>
           </li>
         </ul>
-      </footer>
-    </main>
+      </nav>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="https://practicum.yandex.ru/"
+            ><img
+              class="footer__social-icon"
+              src="./images/yt.svg"
+              alt="Иконка youtube"
+          /></a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="https://practicum.yandex.ru/"
+            ><img
+              class="footer__social-icon"
+              src="./images/vk.svg"
+              alt="Иконка vk"
+          /></a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="https://practicum.yandex.ru/"
+            ><img
+              class="footer__social-icon"
+              src="./images/pinterest.svg"
+              alt="Иконка pinterest"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
